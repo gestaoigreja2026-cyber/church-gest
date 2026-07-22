@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+.cursor
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.vercel
+.env*.local
+netlify-env-import.txt
+
+# Local Netlify folder
+.netlify
+
+.vercel
+.env*.local
+release
+vite.config.ts.timestamp-*.mjs
+
+# Temporary and Scratch files
+scratch/
+supabase/.temp/
+supabase/.env
+
+# Playwright and test artifacts
+test-results/
+.playwright/
+playwright-report/
+
+# Local tools and generated dist
+dev-dist/
+.dev-dist/
+.claude/
+.codex/
